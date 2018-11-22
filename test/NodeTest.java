@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 
-import junit.framework.Assert;
 import neuralnetworkja.Neuron;
 import org.junit.After;
 import org.junit.AfterClass;
@@ -48,7 +47,7 @@ public class NodeTest {
         
         assertEquals(0.75, node.w[0], 0.001);
         assertEquals(0.5, node.w[1], 0.001);
-        assertEquals(0.6, node.w[2], 0.001);
+        assertEquals(-0.6, node.w[2], 0.001);
     }
     
     @Test
